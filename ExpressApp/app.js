@@ -9,7 +9,7 @@ mongoose.connect("mongodb://mongo:27017");
 // CONNECTION EVENTS
 // When successfully connected
 mongoose.connection.on('connected', function() {
-    console.log('Mongoose default connection open to ' + dbURI);
+    console.log('Mongoose default connection opened');
 });
 
 // If the connection throws an error
